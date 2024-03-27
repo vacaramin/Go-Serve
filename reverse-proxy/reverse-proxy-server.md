@@ -9,4 +9,4 @@ This project is a reverse-proxy server designed to forward client requests to on
 - Load balancing across multiple backend servers
 - SSL termination for secure communications
 - Caching of static content to improve performance
-- Customizable routing rules
+- Customizable routing rules.
