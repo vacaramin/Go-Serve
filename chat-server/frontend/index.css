@@ -1,15 +1,35 @@
 
 body{
     background-color: rgb(181, 181, 182);
+}
 
-}
 .container{
+    position: relative;
+    left: 15%;
+    top: 10px;
     background-color: red;
-    width: 600px;
-    height: 400px;
+    width: 70%;
+    height: 600px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    
 }
+
 .chat-box{
     background-color: aqua;
-    width: 200px;
+    width: 70%;
     height: 400px;
+    position: relative;
+    left: 15%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chat-container{
+    width: 50%;
+    border-radius: 10px;
+    height: 2rem;
+    background-color: blueviolet;
+    padding: 5px;
+    align-items: center;
 }
