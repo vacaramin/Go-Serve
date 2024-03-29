@@ -1,0 +1,11 @@
+version: '3.7'
+
+networks:
+
+services:
+
+secrets:
+
+configs:
+
+volumes:
