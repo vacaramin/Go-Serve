@@ -1,0 +1,7 @@
+version: '4.0'
+services:
+
+networks:
+configs:
+secrets:
+volumes:
