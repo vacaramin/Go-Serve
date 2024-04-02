@@ -1,3 +1,11 @@
 package main
 
-// Test file to run the package
+import (
+	"url-shortner/src/initializers"
+)
+
+func main() {
+	//.env loading
+	initializers.Init()
+
+}
