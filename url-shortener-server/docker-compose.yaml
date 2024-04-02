@@ -1,1 +1,27 @@
 version: '4.0'
+
+services:
+  db:
+    image: postgres:alpine3.19
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: helloworld
+      POSTGRES_USER: vacaramin
+      POSTGRES_DB: url_shortener
+    ports:
+      - "5432:5432"
+    user: postgres 
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db-data:/var/lib/postgresql/data
+  backend_dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - ./.env
+    ports:
+      - "8000:3000"
+    volumes:
+      - ./:/apiServer
+    
