@@ -17,7 +17,7 @@ The repository contains the following server projects:
 - [**Game Server**](./game-server/): Manages game sessions and interactions between players.
 - [**gRPC Server**](./grpc-server/): Implements gRPC (Google Remote Procedure Call) services.
 - [**IoT Server**](./iot-server/): Facilitates communication with IoT devices.
-- [**Mail Server**](./mail-server/: Handles sending and receiving emails.
+- [**Mail Server**](./mail-server/): Handles sending and receiving emails.
 - [**Stream Server**](./stream-server/): Streams data to clients in real-time.
 - [**URL Shortener Server**](./url-shortener-server/): Shortens URLs for easier sharing.
 
