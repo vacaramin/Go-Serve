@@ -6,7 +6,7 @@ Go-Serve is a collection of simple server projects implemented in Go. These proj
 
 The repository contains the following server projects:
 
-- [**Proxy Server**](./proxy-server/proxy-server.md): A simple proxy server.
+- [**Proxy Server**](./proxy-server/): A simple proxy server.
 - [**Reverse Proxy Server**](./reverse-proxy/reverse-proxy-server.md): Implementation of a reverse proxy server.
 - [**Authentication Server**](./auth-server/auth-server.md): Handles user authentication and authorization.
 - [**API Server**](./api-server/api-server.md): Provides RESTful APIs for client applications.
