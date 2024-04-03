@@ -26,3 +26,11 @@ Each server project is contained within its own directory and comes with its own
 ## Getting Started
 
 To get started with any of the server projects, follow the instructions provided in the respective project's README file.
+
+## Prerequisites
+
+Before running the server, ensure you have the following:
+
+- Docker
+- Docker-Compose
+- Understanding of concept of each server
