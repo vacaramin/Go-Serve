@@ -1,4 +1,4 @@
-version: '4.0'
+version: '3.9'
 
 services:
   db:
@@ -13,7 +13,7 @@ services:
     user: postgres 
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-      - db-data:/var/lib/postgresql/data
+      - ./:/var/lib/postgresql/data
   backend_dev:
     build:
       context: .
@@ -24,4 +24,6 @@ services:
       - "8000:3000"
     volumes:
       - ./:/apiServer
-    
+
+volumes:
+  db-date:
